@@ -1,6 +1,8 @@
-Private-Package: org.example
+Private-Package: no.ntnu.student.client
 Service-Component: *
 -buildpath: osgi.core,\
 	osgi.cmpn,\
 	biz.aQute.bnd.annotation,\
-	junit.osgi
+	junit.osgi,\
+	hydna-ntnu-student-bundle;version=latest
+Bundle-Version: 1.0.0
